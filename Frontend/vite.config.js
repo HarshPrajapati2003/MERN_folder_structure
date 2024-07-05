@@ -26,13 +26,6 @@ export default defineConfig({
         changeOrigin: true,
         // No rewrite needed, /api remains /api
       },
-      // Proxy other paths (adjust this according to your needs)
-      '/other': {
-        target: 'http://localhost:5000',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/other/, ''), // Adjust the path as needed
-      },
-      // Add more proxies as needed for other paths
     },
   },
 });
