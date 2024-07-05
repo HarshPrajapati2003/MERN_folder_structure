@@ -1,14 +1,14 @@
 # Project Setup Guide 🚀
 
-## Make .env file inside Backend folder and add these variables
+### Make .env file inside Backend folder and add these variables
 
-### EMAIL=YOUR_EMAIL_ADDRESS
+#### EMAIL=YOUR_EMAIL_ADDRESS
 
-### EMAIL_PASSWORD=NODEMAILER_EMAIL_PASSWORD
+#### EMAIL_PASSWORD=NODEMAILER_EMAIL_PASSWORD
 
-### JWT_SECRET=SECRET_KEY
+#### JWT_SECRET=SECRET_KEY
 
-### MONGO_URI=MONGODB_LINK
+#### MONGO_URI=MONGODB_LINK
 
 ## Frontend Setup
 
